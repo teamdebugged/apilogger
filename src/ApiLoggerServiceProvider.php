@@ -1,9 +1,9 @@
 <?php
 
-namespace Benjaminwong\ApiLogger;
+namespace debugged\ApiLogger;
 
 use Illuminate\Support\ServiceProvider;
-use Benjaminwong\ApiLogger\Http\Middleware\APILog;
+use debugged\ApiLogger\Http\Middleware\APILog;
 
 class ApiLoggerServiceProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Benjaminwong\ApiLogger\Http\Middleware;
+namespace debugged\ApiLogger\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
