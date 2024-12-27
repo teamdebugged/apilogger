@@ -1,5 +1,6 @@
 {
     "name": "debugged/apilogger",
+    "version": "1.0.0",
     "description": "A Laravel package for logging API requests and responses",
     "type": "library",
     "license": "MIT",
@@ -24,6 +25,6 @@
             ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
