@@ -16,9 +16,9 @@ return new class extends Migration
             $table->string('method');
             $table->text('url');
             $table->string('ip')->nullable();
-            $table->text('user_agent')->nullable();
-            $table->json('request_data')->nullable();
-            $table->json('response_data')->nullable();
+            $table->longText('user_agent')->nullable();
+            $table->longText('request_data')->nullable();
+            $table->longText('response_data')->nullable();
             $table->integer('status_code')->nullable();
             $table->timestamps();
         });
