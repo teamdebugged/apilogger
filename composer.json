@@ -1,6 +1,6 @@
 {
     "name": "debugged/apilogger",
-    "version": "2.0.0",
+    "version": "4.0.0",
     "description": "A Laravel package for logging API requests and responses",
     "type": "library",
     "license": "MIT",
@@ -12,6 +12,9 @@
     "authors": [
         {
             "name": "Benjamin Wong"
+        },
+        {
+            "name": "Jayme Francis Ramos"
         }
     ],
     "require": {
